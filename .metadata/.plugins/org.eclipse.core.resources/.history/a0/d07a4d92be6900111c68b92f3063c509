@@ -1,0 +1,27 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CO4_RemoveElementsFromArrayList 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		List<String> pl = new ArrayList<>();
+		pl.add("C");
+		pl.add("C++");
+		pl.add("Java");
+		pl.add("Kotlin");
+		pl.add("Python");
+		pl.add("Perl");
+		pl.add("Ruby");
+		System.out.println("Array List OUTPUT:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C02_CreateArrayListFromCollection 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("----------------------------------------------------------");
+		List<Integer> myList = new ArrayList<>();
+		System.out.println("ArrayList<> can store values from another list using addAll() method");
+		myList.add(1);
+		myList.add(2);
+		myList.add(3);
+		myList.add(4);
+		myList.add(5);
+		List<Integer> myList2 = new ArrayList<>();
+		myList2.add(1);
+		myList2.add(2);
+		myList2.add(3);
+		myList2.add(4);
+		myList2.add(5);
+		List<Integer> myList3 = new ArrayList<>(myList);
+		myList3.addAll(myList2);
+		System.out.println("OUTPUT");
+		System.out.println(myList3);
+		System.out.println("----------------------------------------------------------");
+		
+	}
+
+}

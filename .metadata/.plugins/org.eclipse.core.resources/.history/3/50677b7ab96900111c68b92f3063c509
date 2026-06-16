@@ -1,0 +1,29 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C01_CreateArrayListExample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("----------------------------------------------------------");
+		List<String> animals = new ArrayList<>();
+		System.out.println("ArrayList<> will store duplicate values");
+		System.out.println("ArrayList<> will store NULL values");
+		animals.add("Lion");
+		animals.add("Tiger");
+		animals.add("Cat");
+		animals.add("Dog");
+		animals.add("Lion");
+		animals.add(null);
+		animals.add(null);
+		System.out.println("OUTPUT:");
+		System.out.println(animals);
+		System.out.println("----------------------------------------------------------");
+		List<String> animals2 = new ArrayList<>();
+		System.out.println("ArrayList<> storing values using index methods:");
+		
+	}
+
+}

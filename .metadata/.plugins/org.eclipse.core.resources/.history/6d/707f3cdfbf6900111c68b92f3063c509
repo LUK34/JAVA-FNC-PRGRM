@@ -1,0 +1,37 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C04_RemoveElementsFromArrayList 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		List<String> pl = new ArrayList<>();
+		pl.add("C"); //0
+		pl.add("C++"); //1
+		pl.add("Java"); //2
+		pl.add("Kotlin"); //3
+		pl.add("Python"); //4
+		pl.add("Perl"); //5
+		pl.add("Ruby"); //6
+		System.out.println("Array List OUTPUT:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");
+		System.out.println("Scenario 1: Remove element at a given index in an ArrayList using `remove(int index)`");
+		String removed_element = pl.remove(5);
+		System.out.println("Removed the 5th element of Array list. The Remove element:"+removed_element);
+		System.out.println("Array List OUTPUT:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");
+		System.out.println("Scenario 2: Remove element from an ArrayList using `remove(Object e)`");
+		boolean removed_object= pl.remove("Kotlin");
+		System.out.println("Removed Object Status: "+removed_object);
+		System.out.println("Array List OUTPUT:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");
+		System.out.println("Scenario 3: Remove all elements from an ArrayList that exist in a given collection: ");
+		
+		
+		
+	}
+
+}

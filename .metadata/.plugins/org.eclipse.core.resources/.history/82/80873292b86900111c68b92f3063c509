@@ -1,0 +1,14 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C01_CreateArrayListExample 
+{
+	public static void main(String[] args) 
+	{
+		List<String> animals = new ArrayList<>();
+		
+	}
+
+}

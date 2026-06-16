@@ -1,0 +1,11 @@
+package collections;
+
+public class CO4_RemoveElementsFromArrayList 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

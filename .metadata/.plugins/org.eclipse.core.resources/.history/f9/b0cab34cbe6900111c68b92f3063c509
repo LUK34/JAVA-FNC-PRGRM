@@ -1,0 +1,14 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CO4_RemoveElementsFromArrayList 
+{
+	public static void main(String[] args) 
+	{
+		List<String> pl = new ArrayList<>();
+		
+	}
+
+}

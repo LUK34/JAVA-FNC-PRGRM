@@ -1,0 +1,11 @@
+package collections;
+
+public class 01_CreateArrayListExample 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}
