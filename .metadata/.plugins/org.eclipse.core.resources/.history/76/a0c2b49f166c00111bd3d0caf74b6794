@@ -1,0 +1,28 @@
+package collections.LinkedList;
+
+import java.util.LinkedList;
+
+public class C13_SearchLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList<String> fruits = new LinkedList<>();
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Cherry");
+		fruits.add("Orange");
+		fruits.add("Grapes");
+		fruits.add("Apple");
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Carrot");
+	
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("contains() -> Check if the LinkedList contains an element.");
+		boolean containsBanana=fruits.contains("Banana");
+		System.out.println("OUTPUT:"+containsBanana);
+	}
+
+}

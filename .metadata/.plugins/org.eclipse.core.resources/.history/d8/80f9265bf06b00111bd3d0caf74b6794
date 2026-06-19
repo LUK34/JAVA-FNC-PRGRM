@@ -1,0 +1,11 @@
+package collections.LinkedList;
+
+public class C12_RemovingLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

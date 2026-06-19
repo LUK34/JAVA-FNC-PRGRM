@@ -1,0 +1,44 @@
+package collections.LinkedList;
+
+import java.util.LinkedList;
+
+public class C12_RemovingLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		LinkedList<String> fruits = new LinkedList<>();
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Cherry");
+		fruits.add("Orange");
+		fruits.add("Grapes");
+		fruits.add("Apple");
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Carrot");
+		
+		
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("removeFirst() -> remove the first element in the LinkedList.");
+		System.out.println("OUTPUT:"+fruits.removeFirst());
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("removeLast() -> remove the last element in the LinkedList.");
+		System.out.println("OUTPUT:"+fruits.removeLast());
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("remove() -> remove the first occurence of the specified element in the LinkedList.");
+		fruits.remove("Apple");
+		fruits.remove("Banana");
+		System.out.println("OUTPUT:"+fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("removeIf() -> remove all elements that satisfy a given predicate in the LinkedList.");
+		fruits.removeIf(f -> f.startsWith("C"));
+		System.out.println("OUTPUT:"+fruits);
+		System.out.println("clear() -> clear the LinkedList by removing all the elements");
+		fruits.clear();
+		System.out.println("OUTPUT:"+fruits);
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package collections.LinkedList;
+
+public class C13_SearchLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,53 @@
+package collections.LinkedList;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class C14_IteratingOverLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		LinkedList<String> fruits = new LinkedList<>();
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Cherry");
+		fruits.add("Orange");
+		fruits.add("Grapes");
+		fruits.add("Apple");
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Carrot");
+		
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. forEach -> Use for-each loop to iterate over the LinkedList");
+		for(String f:fruits)
+		{
+			System.out.println(f);
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("2. iterator() -> Use iterator to iterate over the Linked List");
+		Iterator<String> iterator = fruits.iterator();
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("3. Using iterator() and forEachRemaining() method in Java 8");
+		Iterator<String> iterator2=fruits.iterator();
+		iterator2.forEachRemaining(f -> System.out.println(f));
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("4. Using descendingIterator() to iterate over the LinkedList in reverse order.");
+		Iterator<String> desc_val = fruits.descendingIterator();
+		while(desc_val.hasNext())
+		{
+			System.out.println(desc_val.next());
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("5. Using java method forEach() and lambda expression.");
+		
+	}
+
+}

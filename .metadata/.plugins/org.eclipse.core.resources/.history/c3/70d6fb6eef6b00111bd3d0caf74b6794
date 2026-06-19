@@ -1,0 +1,11 @@
+package collections.LinkedList;
+
+public class C11_RetrieveLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

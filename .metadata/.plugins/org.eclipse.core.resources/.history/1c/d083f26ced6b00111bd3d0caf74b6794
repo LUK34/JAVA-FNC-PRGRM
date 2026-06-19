@@ -1,0 +1,11 @@
+package collections.LinkedList;
+
+public class C10_CreateLinkedList
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

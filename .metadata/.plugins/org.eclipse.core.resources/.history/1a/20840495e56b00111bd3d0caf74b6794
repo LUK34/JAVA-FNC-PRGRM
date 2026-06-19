@@ -1,0 +1,46 @@
+package collections.ArrayList;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class C05_IteratingOverArrayList 
+{
+	public static void main(String[] args) 
+	{
+		List<String> pl = new ArrayList<>();
+		pl.add("C"); //0
+		pl.add("C++"); //1
+		pl.add("Java"); //2
+		pl.add("Kotlin"); //3
+		pl.add("Python"); //4
+		pl.add("Perl"); //5
+		pl.add("Ruby"); //6
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		System.out.println("Scenario 1: Using Simple FOR LOOP");
+		for(int i=0; i< pl.size(); i++)
+		{
+			System.out.println(pl.get(i));
+		}
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		System.out.println("Scenario 2: Using FOR EACH LOOP");
+		for(String l: pl)
+		{
+			System.out.println(l);
+		}
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		System.out.println("Scenario 3: Using ITERATOR");
+		Iterator<String> iterator = pl.iterator();
+		while(iterator.hasNext())
+		{
+		    System.out.println(iterator.next());
+		}
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		System.out.println("Scenario 4: Using ITERATOR and Java 8 foEachRemaining method");
+		pl.iterator().forEachRemaining((e) -> {	System.out.println(e);	});
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+
+		
+	}
+
+}

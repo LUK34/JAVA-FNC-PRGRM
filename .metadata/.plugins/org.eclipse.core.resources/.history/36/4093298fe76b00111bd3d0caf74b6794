@@ -1,0 +1,33 @@
+package collections.ArrayList;
+
+import java.util.ArrayList;
+
+import com.sun.tools.javac.util.List;
+
+public class C07_ArrayListUserDefinedObject 
+{
+	class Employee
+	{
+		private int id;
+		private String firstName;
+		private String lastName;
+		private String email;
+		
+		public Employee(int id, String firstName, String lastName, String email)
+		{
+			this.id=id;
+			this.firstName=firstName;
+			this.lastName=lastName;
+			this.email=email;
+		}
+		
+		
+	}
+	public static void main(String[] args) 
+	{
+		List<Employee> emp = new ArrayList<>();
+		emp.add(1,"Luke","Rajan Mathew","luke@gmail.com");
+		
+	}
+
+}

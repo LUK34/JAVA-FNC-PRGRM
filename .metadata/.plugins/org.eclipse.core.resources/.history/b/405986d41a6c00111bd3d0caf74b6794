@@ -1,0 +1,44 @@
+package collections.LinkedList;
+
+public class C16_LinkedList_Exercise 
+{
+	 public List<String> performOperations() {
+
+	        // Create LinkedList and add cities
+	        LinkedList<String> cities = new LinkedList<>();
+
+	        cities.add("Mumbai");
+	        cities.add("Delhi");
+	        cities.add("Bangalore");
+	        cities.add("Chennai");
+
+	        // Retrieve first element
+	        String firstCity = cities.getFirst();
+
+	        // Remove Delhi
+	        cities.remove("Delhi");
+
+	        // Search Bangalore
+	        boolean containsBangalore = cities.contains("Bangalore");
+
+	        // Convert remaining cities to uppercase
+	        for (int i = 0; i < cities.size(); i++) {
+	            cities.set(i, cities.get(i).toUpperCase());
+	        }
+
+	        // Append required values
+	        cities.add("FIRST:" + firstCity);
+	        cities.add("CONTAINS_BANGALORE:" + containsBangalore);
+
+	        return cities;
+	    }
+
+	    public static void main(String[] args) {
+
+	        Exercise ex = new Exercise();
+
+	        System.out.println(ex.performOperations());
+	    }
+	}
+
+}

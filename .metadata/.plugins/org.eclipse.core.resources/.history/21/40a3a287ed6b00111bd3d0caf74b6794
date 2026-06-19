@@ -1,0 +1,18 @@
+package collections.LinkedList;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class C10_CreateLinkedList
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("STEP 1: Creating a Linked List");
+		List<String> fruits = new LinkedList<>();
+		fruits.add("Apple");
+		
+		
+		
+	}
+
+}

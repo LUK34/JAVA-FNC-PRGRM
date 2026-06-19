@@ -1,0 +1,41 @@
+package collections.LinkedList;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class C14_IteratingOverLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		LinkedList<String> fruits = new LinkedList<>();
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Banana");
+		fruits.add("Cherry");
+		fruits.add("Orange");
+		fruits.add("Grapes");
+		fruits.add("Apple");
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Carrot");
+		
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("forEach -> Use for-each loop to iterate over the LinkedList");
+		for(String f:fruits)
+		{
+			System.out.println(f);
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("iterator() -> Use iterator to iterate over teh Linked List");
+		Iterator<String> iterator = fruits.iterator();
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
+		
+		
+	}
+
+}

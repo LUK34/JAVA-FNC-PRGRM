@@ -1,0 +1,27 @@
+package collections.LinkedList;
+
+import java.util.LinkedList;
+
+public class C10_CreateLinkedList
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("STEP 1: Creating a Linked List");
+		LinkedList<String> fruits = new LinkedList<>();
+		System.out.println("STEP 2: add() -> Add new elements to the end of the LinkedList");
+		fruits.add("Apple");
+		fruits.add("Banana");
+		fruits.add("Cherry");
+		System.out.println("LinkedList after add():"+fruits);
+		System.out.println("STEP 3: add(index, element) -> Add an element at the specified position in the LinkedList");
+		fruits.add(1,"Mango");
+		System.out.println("LinkedList after add(index, element): "+fruits);
+		System.out.println("STEP 4: addFirst -> Add an element at the beginning of the LinkedList");
+		fruits.addFirst("PineApple");
+		System.out.println("LinkedList after addFirst(): "+fruits);
+		
+		
+		
+	}
+
+}

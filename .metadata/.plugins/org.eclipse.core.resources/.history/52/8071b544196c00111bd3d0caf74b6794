@@ -1,0 +1,11 @@
+package collections.LinkedList;
+
+public class C15_UserDefinedObjectsLinkedList 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

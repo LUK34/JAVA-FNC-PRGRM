@@ -1,0 +1,11 @@
+package collections.LinkedList;
+
+public class C14_IteratingOverLinkedListElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

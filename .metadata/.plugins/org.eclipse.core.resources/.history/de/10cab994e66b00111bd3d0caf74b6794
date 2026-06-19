@@ -1,0 +1,30 @@
+package collections.ArrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C06_SearchingElementsInArrayList 
+{
+	public static void main(String[] args) 
+	{
+		List<String> pl = new ArrayList<>();
+		pl.add("C"); //0
+		pl.add("C++"); //1
+		pl.add("Java"); //2
+		pl.add("Kotlin"); //3
+		pl.add("Python"); //4
+		pl.add("Perl"); //5
+		pl.add("Ruby"); //6
+		pl.add("Java"); //7
+		pl.add("Ruby");//8
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		System.out.println("Scenario 1: Check if the array list contains a given element");
+		boolean hasElement = pl.contains("Java");
+		System.out.println(hasElement);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		System.out.println("Scenario 2: Find the index of first occurence of an element in Array List");
+		int index=pl.indexOf("java");
+		System.out.println(index);
+	}
+
+}

@@ -1,0 +1,43 @@
+package collections.ArrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C09_ArrayList_Exercise 
+{
+    public List<String> performOperations() {
+
+        // Create and add fruits
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Mango");
+        fruits.add("Orange");
+
+        // Access first fruit
+        String firstFruit = fruits.get(0);
+
+        // Remove Banana
+        fruits.remove("Banana");
+
+        // Search Mango
+        boolean containsMango = fruits.contains("Mango");
+
+        // Convert remaining fruits to uppercase
+        for (int i = 0; i < fruits.size(); i++) {
+            fruits.set(i, fruits.get(i).toUpperCase());
+        }
+
+        // Append required values
+        fruits.add("FIRST:" + firstFruit);
+        fruits.add("CONTAINS_MANGO:" + containsMango);
+
+        return fruits;
+    }
+
+    public static void main(String[] args) {
+    	C09_ArrayList_Exercise ex = new C09_ArrayList_Exercise();
+        System.out.println(ex.performOperations());
+    }
+
+}

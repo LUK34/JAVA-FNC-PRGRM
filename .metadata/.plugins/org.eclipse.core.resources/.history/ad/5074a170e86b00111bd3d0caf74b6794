@@ -1,0 +1,16 @@
+package collections.ArrayList;
+
+import java.util.ArrayList;
+
+import com.sun.tools.javac.util.List;
+
+public class C08_SortingAnArrayList 
+{
+	public static void main(String[] args) 
+	{
+		List<Integer> a = new ArrayList<>()
+		a.add(1);
+		
+	}
+
+}

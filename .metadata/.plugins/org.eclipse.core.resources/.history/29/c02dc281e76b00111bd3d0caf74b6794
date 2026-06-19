@@ -1,0 +1,11 @@
+package collections.ArrayList;
+
+public class C07_ArrayListUserDefinedObject 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

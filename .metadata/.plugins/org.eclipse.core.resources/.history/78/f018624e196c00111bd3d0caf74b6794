@@ -1,0 +1,17 @@
+package collections.LinkedList;
+
+class Student
+{
+	
+	
+}
+
+public class C15_UserDefinedObjectsLinkedList 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

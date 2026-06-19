@@ -1,0 +1,61 @@
+package collections.ArrayList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+
+
+public class C08_SortingAnArrayList 
+{
+	public static void main(String[] args) 
+	{
+		List<Integer> a = new ArrayList<>();
+		a.add(5);
+		a.add(6);
+		a.add(4);
+		a.add(7);
+		a.add(1);
+		a.add(3);
+		a.add(2);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		Collections.sort(a);
+		System.out.println("Sorting in Ascending Order:"+a);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		Collections.sort(a,Collections.reverseOrder());
+		System.out.println("Sorting in Descending Order:"+a);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		a.sort(Comparator.naturalOrder());
+		System.out.println("Sorting in Comparator natural Order:"+a);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		List<String> pl = new ArrayList<>();
+		pl.add("C"); //0
+		pl.add("C++"); //1
+		pl.add("Java"); //2
+		pl.add("Kotlin"); //3
+		pl.add("Python"); //4
+		pl.add("Perl"); //5
+		pl.add("Ruby"); //6
+		pl.add("Java"); //7
+		pl.add("Ruby");//8
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		Collections.sort(pl);
+		System.out.println("Sorting in Ascending Order:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		Collections.sort(pl,Collections.reverseOrder());
+		System.out.println("Sorting in Descending Order:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+		pl.sort(Comparator.naturalOrder());
+		System.out.println("Sorting in Comparator natural Order:"+pl);
+		System.out.println("-------------------------------------------------------------------------------------------------------");	
+
+		
+		
+		
+		
+		
+		
+	}
+
+}
