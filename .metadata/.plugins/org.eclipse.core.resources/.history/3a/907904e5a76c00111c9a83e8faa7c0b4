@@ -1,0 +1,36 @@
+package collections.TreeSet;
+
+import java.util.Iterator;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class C29_IterateTreeSet 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		NavigableSet<String> fruits = new TreeSet<>();
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		System.out.println(fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. Using for-each loop to iterate over the TreeSet");
+		for(String fruit:fruits)
+		{
+			System.out.println(fruit);
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("2. Using iterator() to iterate over the TreeSet");
+		Iterator<String> i = fruits.iterator();
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package collections.TreeSet;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class C24_CreateTreeSetExample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		SortedSet<String> fruits = new TreeSet<>();
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		System.out.println(fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. Duplicate elements are ignored.");
+		fruits.add("Banana");
+		fruits.add("Apple");
+		System.out.println(fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. Tree Set is case sensitive.");
+		fruits.add("banana");
+		System.out.println(fruits);
+		
+	}
+
+}

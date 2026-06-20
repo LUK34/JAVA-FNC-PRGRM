@@ -1,0 +1,42 @@
+package collections.TreeSet;
+
+public class C31_TreeSet_Exercise 
+{
+	public static Set<String> performOperations() {
+
+        // Create TreeSet and add elements
+        TreeSet<String> names = new TreeSet<>();
+
+        names.add("Zara");
+        names.add("Amit");
+        names.add("John");
+        names.add("Bob");
+
+        // Retrieve first and last elements
+        String first = names.first();
+        String last = names.last();
+
+        // Remove John
+        names.remove("John");
+
+        // Create result set
+        Set<String> result = new TreeSet<>();
+
+        // Convert remaining names to uppercase
+        for (String name : names) {
+            result.add(name.toUpperCase());
+        }
+
+        // Add markers
+        result.add("FIRST:" + first);
+        result.add("LAST:" + last);
+        result.add("CONTAINS_JOHN:" + names.contains("John"));
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(performOperations());
+    }
+
+}

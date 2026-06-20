@@ -1,0 +1,11 @@
+package collections.TreeSet;
+
+public class C24_CreateTreeSetExample 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

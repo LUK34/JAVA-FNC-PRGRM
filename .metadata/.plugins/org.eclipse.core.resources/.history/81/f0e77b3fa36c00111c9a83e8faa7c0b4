@@ -1,0 +1,10 @@
+package collections.TreeSet;
+
+public class C25_TreeCaseInsensitiveExample 
+{
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

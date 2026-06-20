@@ -1,0 +1,17 @@
+package collections.TreeSet;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class C25_TreeCaseInsensitiveExample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		SortedSet<String> fruits = new TreeSet<>(String.CASE_INSENSITIVE_ORDER);
+		
+		
+	}
+	
+
+}

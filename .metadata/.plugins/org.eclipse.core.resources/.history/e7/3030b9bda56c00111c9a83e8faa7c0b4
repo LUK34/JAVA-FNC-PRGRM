@@ -1,0 +1,15 @@
+package collections.TreeSet;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class C28_RemoveElementsFromTreeSet 
+{
+	public static void main(String[] args) 
+	{
+		NavigableSet<Integer> n = new TreeSet<>();
+		n.add(2);
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package collections.TreeSet;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class C24_CreateTreeSetExample 
+{
+	public static void main(String[] args) 
+	{
+		SortedSet<String> fruits = new TreeSet<>();
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package collections.TreeSet;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class C27_AccessTreeSetElements 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		NavigableSet<String> fruits = new TreeSet<>();
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		System.out.println(fruits);
+		System.out.println("1. Find the size of the TreeSet");
+		System.out.println("Size of the TreeSet: "+fruits.size());
+		
+		
+		
+	}
+
+}

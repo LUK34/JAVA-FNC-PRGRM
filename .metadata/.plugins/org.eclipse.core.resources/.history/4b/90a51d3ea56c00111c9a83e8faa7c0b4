@@ -1,0 +1,50 @@
+package collections.TreeSet;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class C27_AccessTreeSetElements 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		NavigableSet<String> fruits = new TreeSet<>();
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		System.out.println(fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. size() -> Find the size of the TreeSet");
+		System.out.println("Size of the TreeSet: "+fruits.size());
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("2. contains() -> To check if a specific element exist in the tree set");
+		if(fruits.contains("Banana"))
+		{
+			System.out.println("Element exists.");
+		}
+		else 
+		{
+			System.out.println("Element does not exist.");
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("3. first() -> To find the first element in the tree set");
+		System.out.println("First element in TreeSet: "+fruits.first());
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("4. last() -> To find the last element in the tree set");
+		System.out.println("Last element in TreeSet: "+fruits.last());
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("5. higher() -> To find elements higher than a given element");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

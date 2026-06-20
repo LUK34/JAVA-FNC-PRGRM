@@ -1,0 +1,25 @@
+package collections.TreeSet;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class C25_TreeCaseInsensitiveExample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		SortedSet<String> fruits = new TreeSet<>(String.CASE_INSENSITIVE_ORDER);
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		System.out.println(fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. Lower case elements will be considered as DUPLICATES");
+		fruits.add("banana");
+		fruits.add("apple");
+		
+	}
+	
+
+}

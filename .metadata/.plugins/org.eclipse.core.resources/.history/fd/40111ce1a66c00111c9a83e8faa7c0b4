@@ -1,0 +1,43 @@
+package collections.TreeSet;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class C28_RemoveElementsFromTreeSet 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		NavigableSet<Integer> n = new TreeSet<>();
+		n.add(2);
+		n.add(3);
+		n.add(4);
+		n.add(5);
+		n.add(6);
+		n.add(7);
+		n.add(8);
+		n.add(9);
+		n.add(10);
+		System.out.println("OUTPUT: "+n);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. remove() -> Remove an element from the TreeSet");
+		n.remove(10);
+		System.out.println("OUTPUT: "+n);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("2. removeIf() -> Remove all elements that satisfies a given Predicate");
+		n.removeIf((nu) -> {return nu%2==0;});
+		System.out.println("OUTPUT: "+n);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("3. pollFirst() -> Retrieve and remove the first element from TreeSet.");
+		Integer n = n.pollFirst();
+		System.out.println("OUTPUT: "+n);
+		System.out.println("Element that was retrieved and removed:");
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("4. pollLast() -> Retrieve and remove the last element from TreeSet.");
+		n.pollLast();
+		System.out.println("OUTPUT: "+n);
+		System.out.println("--------------------------------------------------------------------------------");
+		
+	}
+
+}

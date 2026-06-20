@@ -1,0 +1,11 @@
+package collections.TreeSet;
+
+public class C30_TreeSetUserDefinedObject 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

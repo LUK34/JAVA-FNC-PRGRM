@@ -1,0 +1,48 @@
+package collections.TreeSet;
+
+import java.util.Iterator;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class C29_IterateTreeSet 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("--------------------------------------------------------------------------------");
+		NavigableSet<String> fruits = new TreeSet<>();
+		fruits.add("Banana");
+		fruits.add("Apple");
+		fruits.add("Mango");
+		fruits.add("Orange");
+		System.out.println(fruits);
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. Using for-each loop to iterate over the TreeSet");
+		for(String fruit:fruits)
+		{
+			System.out.println(fruit);
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("2. Using iterator() to iterate over the TreeSet");
+		Iterator<String> i = fruits.iterator();
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("3. Using iterator() and forEachRemaining method (Java 8)");
+		fruits.iterator().forEachRemaining((f) -> System.out.println(f));
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("4. Using descendingIterator() to iterate over the TreeSet in reverse order.");
+		Iterator<String> i1 = fruits.descendingIterator();
+		while(i1.hasNext())
+		{
+			System.out.println(i1.next());
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("5. forEach() -> Using Java 8 and forEach().");
+		fruits.forEach(n -> System.out.println(n));
+		
+		
+	}
+
+}
