@@ -1,0 +1,11 @@
+package collections.HashSet;
+
+public class C19_AccessingHashSetElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package collections.HashSet;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class C17_CreateHashSetExample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("1. Create a HashSet using the HashSet() constructor");
+		Set<String> daysOfWeek = new HashSet<>();
+		
+		
+	}
+
+}

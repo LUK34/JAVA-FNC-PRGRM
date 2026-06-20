@@ -1,0 +1,42 @@
+package collections.HashSet;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class C21_IteratingOverHashSet 
+{
+	public static void main(String[] args) 
+	{
+		HashSet<String> pl = new HashSet<>();
+		pl.add("C");
+		pl.add("C++");
+		pl.add("Java");
+		pl.add("Python");
+		pl.add("PHP");
+		pl.add("Ruby");
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("1. Iterating over HashSet using simple for-each loop:");
+		for(String p :pl)
+		{
+			System.out.println(p);
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("2. Iterating over HashSet using iterator()");
+		Iterator<String> i1 = pl.iterator();
+		while(i1.hasNext())
+		{
+			System.out.println(i1.next());
+		}
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("3. Iterating over HashSet using iterator() and Java 8 forEachRemaining() method");
+		Iterator<String> stringIterator = pl.iterator();
+		stringIterator.forEachRemaining((e) -> {System.out.println(e);});
+		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("4. Iterating over HashSet using Java 8 forEach and lambda expression");
+		pl.forEach((e) -> {System.out.println(e);});
+		
+	
+	
+	}
+
+}

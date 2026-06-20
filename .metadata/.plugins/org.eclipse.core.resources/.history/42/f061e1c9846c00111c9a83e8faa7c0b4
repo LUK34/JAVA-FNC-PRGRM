@@ -1,0 +1,16 @@
+package collections.HashSet;
+
+class Student
+{
+	private int rollNumber;
+	private String name;
+}
+
+
+public class C22_UserDefineObjectsHashSet 
+{
+	public static void main(String[] args) {
+		
+	}
+
+}

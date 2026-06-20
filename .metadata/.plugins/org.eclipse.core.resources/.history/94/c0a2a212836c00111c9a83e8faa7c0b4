@@ -1,0 +1,13 @@
+package collections.HashSet;
+
+import java.util.HashSet;
+
+public class C21_IteratingOverHashSet 
+{
+	public static void main(String[] args) 
+	{
+		HashSet<String> pl = new HashSet<>();
+		
+	}
+
+}

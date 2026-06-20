@@ -1,0 +1,12 @@
+package collections.HashSet;
+
+public class C20_RemoveHashSetElements 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("1. Creating a HashSet and adding elements");
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package collections.HashSet;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class C19_AccessingHashSetElements 
+{
+	public static void main(String[] args) 
+	{
+		Set<String> daysOfWeek = new HashSet<>();
+		
+		
+	}
+
+}

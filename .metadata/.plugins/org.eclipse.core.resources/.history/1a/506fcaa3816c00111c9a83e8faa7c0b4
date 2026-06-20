@@ -1,0 +1,11 @@
+package collections.HashSet;
+
+public class C20_RemoveHashSetElements 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}
