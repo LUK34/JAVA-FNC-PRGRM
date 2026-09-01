@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
     <entry loc="C:\Program Files\Java\jdk-17" stamp="1711253240470"/>
+    <entry loc="C:\Program Files\Java\jdk-11" stamp="1711252617200"/>
+    <entry loc="C:\Program Files\Java\jdk-15.0.1" stamp="1712478647865"/>
     <entry loc="C:\Programme file install setup\Spring tool suite download\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143" stamp="1714416398107"/>
     <entry loc="C:\Programme file install setup\Spring tool suite download\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre" stamp="1714416397340"/>
+    <entry loc="C:\Program Files\Java\jdk1.8.0_361" stamp="1687700731206"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_361" stamp="1687700729955"/>
 </dirs>
