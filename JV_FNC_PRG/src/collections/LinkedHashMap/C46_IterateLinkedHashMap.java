@@ -35,6 +35,18 @@ public class C46_IterateLinkedHashMap
 				System.out.println(entry.getKey()+" -> "+entry.getValue());
 			}
 			
+			//Iterator over a LinkedHashMaps entrySet using iterator() and Java 8 forEachRemaining() method
+			System.out.println("Iterator over a LinkedHashMaps entrySet using iterator() and Java 8 forEachRemaining() method");
+			Iterator<Map.Entry<String,Integer>> entryIterator = wordNumberMapping.entrySet().iterator();
+			entryIterator.forEachRemaining(e -> System.out.println(e.getKey()+" -> "+ e.getValue()));
+			
+			// using for-each loop
+			System.out.println("using for-each loop");
+			for(Map.Entry<String, Integer> e: wordNumberMapping.entrySet())
+			{
+				System.out.println(e.getKey()+" -> "+e.getValue());
+			}
+			
 			
 			
 			
